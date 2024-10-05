@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="dev.marianoc.pc1.ui.fragments.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/listView"
+        android:name="dev.marianoc.pc1.ui.fragments.ListView"
+        android:label="activity_list_view"
+        tools:layout="@layout/activity_list_view" />
+    <activity
+        android:id="@+id/recyclerView"
+        android:name="dev.marianoc.pc1.ui.fragments.RecyclerView"
+        android:label="activity_recycler_view"
+        tools:layout="@layout/activity_recycler_view" />
+</navigation>
